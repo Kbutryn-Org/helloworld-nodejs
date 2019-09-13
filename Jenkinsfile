@@ -47,6 +47,9 @@ pipeline {
       steps {
         echo "Continuing with deployment"
       }
+      steps {
+        echo "Continuing with deployment - approved by ${APPROVER}"
+      }
     }
   }
 }
